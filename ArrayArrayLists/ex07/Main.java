@@ -3,8 +3,8 @@ package ArrayArrayLists.ex07;
 import java.util.*;
 
 /*
- * 6. Remover Elemento de um ArrayList
-    Remova um número específico de um `ArrayList`. 
+7. Buscar Elemento em um Array
+    Verifique se um número está presente em um array.  
  */
 
 public class Main {
