@@ -1,4 +1,4 @@
-package Listas.LInkedLIst;
+package Listas.DoubleLinkedList;
 
 public class Nodo {
     public int value;

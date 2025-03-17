@@ -1,4 +1,4 @@
-package Listas.LInkedLIst;
+package Listas.DoubleLinkedList;
 
 public class Linkedlist {
     public Nodo head, tail;
