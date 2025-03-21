@@ -1,4 +1,4 @@
-package Listas.opateste;
+package Listas.doubleLinkedList;
 
 public class Node {
     int value;

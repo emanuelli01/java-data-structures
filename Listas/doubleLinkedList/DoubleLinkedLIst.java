@@ -1,4 +1,4 @@
-package Listas.opateste;
+package Listas.doubleLinkedList;
 
 class DoubleLinkedList {
     public Node head, tail;
