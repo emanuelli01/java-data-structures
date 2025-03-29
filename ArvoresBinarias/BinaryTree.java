@@ -28,11 +28,12 @@ public class BinaryTree {
     }
 
     private void printInOrder(Node root) {
-        if(root != null) {
-            printInOrder(root.left);
-            System.out.print(root.value + " ");
-            printInOrder(root.right);
+        if(root == null) {
+            return;
         }
+        printInOrder(root.left);
+        System.out.println(root.value);
+        printInOrder(root.right);
     }
 
 }
