@@ -34,6 +34,8 @@ public class Main {
         System.out.println("================ inseriu no meio =============");
         list.insertIn(323, 40);
         list.print();
+        list.removeIn(1);
+        list.print();
         
     }
 }

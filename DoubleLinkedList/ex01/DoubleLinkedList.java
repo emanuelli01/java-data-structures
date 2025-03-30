@@ -115,9 +115,24 @@ public class DoubleLinkedList {
         }
 
         if(aux == tail && aux.value == where) {
+            newNode.prev = tail;
             tail.next = newNode;
             tail = newNode;
+        }     
+    }
+
+    // ex 05
+
+    public void removeIn(int location) {
+        if(location == 0) {
+            head = head.next;
+            head.prev = null;
+            return;
         }
-        
+        if(location == 1) {
+            tail = tail.prev;
+            tail.next = null;
+            return;
+        }
     }
 }
