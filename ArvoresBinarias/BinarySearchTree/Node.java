@@ -1,4 +1,4 @@
-package ArvoresBinarias;
+package ArvoresBinarias.BinarySearchTree;
 
 public class Node {
     public int value;

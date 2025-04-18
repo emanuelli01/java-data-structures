@@ -1,4 +1,4 @@
-package ArvoresBinarias;
+package ArvoresBinarias.BinarySearchTree;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Main {
         System.out.println(lista);
         System.out.println("### ARVORE ORIGINAL ###");
         lista.print();
-        
+        lista.search(50);
 
         
     }
